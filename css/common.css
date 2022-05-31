@@ -1,0 +1,109 @@
+/* 헤더 */
+
+header {
+    /* 상대적 위치 표현, 건들지 말 것 */
+
+    position: relative;
+
+  }
+  
+  nav {
+
+    /* 내비게이션 */
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+
+  }
+  
+    /* 임시 텍스트 표현, 차후 로고 삽입 */
+
+  h1 {
+
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    margin: 0.5rem;
+    padding: 0;
+
+  }
+  
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+      /* 우측 html 태그 오른쪽 집합 */
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li.icon {
+    flex-basis: 25%;
+  }
+  
+    /* 헤더 백그라운드 패딩 */
+
+  header {
+    background: white;
+
+    border: solid 1px black;
+
+    
+  }
+  
+    /* 오른쪽 리스트 인덱스 패딩 건들면 요소들끼리 겹침 */
+
+  a {
+    display: block;
+    text-align: center;
+    margin: .25rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background: white;
+  }
+  
+    /* 호버링 효과 */
+
+  a:hover {
+    background: gray;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* 푸터 */
+
+.py {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+       }
+       
+.bg-dark{
+       --bs-bg-opacity: 1;
+       background-color: black; !important;
+       }
+
+       .m {
+         margin: 0 !important;
+       }
+       .text-center {
+         text-align: center !important;
+       }
+       .text-white {
+         --bs-text-opacity: 1;
+         color: white; !important;
+       }
